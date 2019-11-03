@@ -1,0 +1,20 @@
+#   WER      PDF Features
+-------------------------------------
+1  0.006 Helvetica 12/24 size	   
+2  0.002 Helvetica Neuve			
+3  0.034 Times 14 (RGB text)		
+4  0.020 Courier small 10.5		
+5  0.001 Andale (Bold/It/Undertext)
+6  0.022 Arial 10.5					  
+7  0.032 Times Bold 10.5			
+
+
+#    WER     JPG Features
+-------------------------------------
+1 0.013 Projection View
+2 0.009 Folded paper		
+3 0.107 10-15 degrees clockwise
+4 0.065 Out of Focus				 
+5 0.088 Landscape photo			
+6 0.022 Other objects (pen, book)
+7 0.110 Blur						   
