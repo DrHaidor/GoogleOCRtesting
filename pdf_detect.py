@@ -20,8 +20,8 @@ feature = vision.types.Feature(
 
 #gcs_source_uri='gs://cloud-samples-data/vision/pdf_tiff/census2010.pdf'
 #gcs_source_uri='gs://gag_image_bucket/Liver_Tumors.pdf'
-gcs_source_uri='gs://gag_image_bucket/MedText07_1p.pdf'
-gcs_destination_uri='gs://gag_image_bucket/MedText07_1p_out'
+gcs_source_uri='gs://gag_image_bucket/MedText03.pdf'
+gcs_destination_uri='gs://gag_image_bucket/MedText03_pdfout'
 
 
 gcs_source = vision.types.GcsSource(uri=gcs_source_uri)

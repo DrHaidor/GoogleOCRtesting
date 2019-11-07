@@ -1,0 +1,34 @@
+Background
+Allowing patients to access their own electronic health record (EHR) notes
+through online patient portals has the potential to improve patient-centered
+care. However, EHR notes contain abundant medical jargon that can be difficult
+for patients to comprehend. One way to help patients is to reduce information
+overload and help them focus on medical terms that matter most to them. Targeted
+education can then be developed to improve patient EHR comprehension and the
+quality of care. Objective: The aim of this work was to develop FIT (Finding
+Important Terms for patients), an unsupervised natural language processing (NLP)
+system that ranks medical terms in EHR notes based on their importance to
+patients.
+Methods:
+Specifically
+We built FIT on a new unsupervised ensemble FIT integrates four single views (rankers) for term
+ranking model derived from the biased random importance: patient use of medical concepts,
+walk algorithm to combine heterogeneous document-level term salience, word co-occurrence
+information resources for ranking candidate based term relatedness, and topic coherence.
+terms from each EHR note.
+It also incorporates
+Results:
+Partial information of term importance as FIT achieved 0.885 AUC-ROC for ranking
+conveyed by terms' unfamiliarity levels and candidate terms from EHR notes to identify
+semantic types. We evaluated FIT on 90 important terms. When including term
+expert-annotated EHR notes and used the four identification, the performance of FIT for
+single-view rankers as baselines. In addition, identifying important terms from EHR notes was
+we implemented three benchmark unsupervised0.813 AUC-ROC. Both performance scores
+ensemble ranking methods as strong baselines. significantly exceeded the corresponding scores
+from the four single rankers (P<0.001).
+FIT also outperformed the three ensemble rankers for most metrics. Its
+performance is relatively insensitive to its parameter. Conclusions: FIT can
+automatically identify EHR terms important to patients. It may help develop
+future interventions to improve quality of care. By using unsupervised learning
+as well as a robust and flexible framework for information fusion, FIT can be
+readily applied to other domains and applications.

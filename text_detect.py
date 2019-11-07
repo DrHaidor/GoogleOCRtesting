@@ -7,7 +7,8 @@ import os
 
 os.environ['GRPC_DNS_RESOLVER'] = 'native'
 #path = '/home/gag/Dropbox/GCP/python-docs-samples/vision/cloud-client/detect/resources/TestText/7/MedText07.jpg'
-path = '/home/gag/Dropbox/GCP/python-docs-samples/vision/cloud-client/detect/resources/test_data.tar/18.jpg'
+#path = '/home/gag/Dropbox/GCP/python-docs-samples/vision/cloud-client/detect/resources/test_data.tar/18.jpg'
+path = '/home/gag/Dropbox/GCP/python-docs-samples/vision/cloud-client/detect/resources/TableTest/03/MedText03.jpeg'
 
 
 client = vision.ImageAnnotatorClient()
